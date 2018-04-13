@@ -1,18 +1,16 @@
-MultiChain Web Demo
+Frontend Web.
 ===================
 
-MultiChain Web Demo is a simple web interface for [MultiChain](http://www.multichain.com/) blockchains, written in PHP.
+Frontend Web is a simple web interface for https://www.chainid.io
 
-https://github.com/MultiChain/multichain-web-demo
-
-    Copyright(C) 2015,2016 by Coin Sciences Ltd.
+    Copyright(C) 2017,2018 by Chain ID.
     License: GNU Affero General Public License, see the file LICENSE.txt.
 
 
-Welcome to MultiChain Web Demo
+Welcome to ChainID Web.
 ==============================
 
-This software uses PHP to provide a web front-end for a [MultiChain](http://www.multichain.com/) blockchain node.
+This software uses PHP to provide a web front-end for a [ChainID](https://www.chainid.io) blockchain node.
 
 It currently supports the following features:
 
@@ -38,7 +36,7 @@ The web demo does not yet support the following important functionality in the M
 * Peer-to-peer node management.
 * Message signing and verification.
 
-The MultiChain Web Demo is still under development, so please [contact us](http://www.multichain.com/contact-us/) if any of these things are crucial for your needs.
+The MultiChain Web Demo is still under development, so please [contact us](https://www.chainid.io) if any of these things are crucial for your needs.
 
 
 System Requirements
@@ -48,13 +46,13 @@ System Requirements
 * PHP 5.x or later with the `curl` extension.
 * MultiChain 1.0 alpha 26 or later.
 
-**Note that this Web Demo does not yet support MultiChain 2.0 preview releases.**
+**Note that this Web Demo does not yet support ChainID releases.**
 
 
 Create and launch a MultiChain Blockchain
 -----------------------------------------
 
-If you do not yet have a chain to work with, [Download MultiChain](http://www.multichain.com/download-install/) to install MultiChain and create a chain named `chain1` as follows:
+If you do not yet have a chain to work with, [Chain](https://www.chainid.io/) to install MultiChain and create a chain named `chain1` as follows:
 
     multichain-util create chain1
     multichaind chain1 -daemon
